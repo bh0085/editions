@@ -5,21 +5,159 @@
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  opacity:.3;
+  opacity: .15;
+}
+
+body{
+font-family:sans-serif;
+}
+
+.read-more-state:checked ~ .read-more-wrap.words{
+    bottom: 0px;
+    /* position: absolute; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 100;
+    overflow: hidden;
+}
+.read-more-state{
+  display:none;
+}
+.read-more-state ~ .read-more-trigger:before {
+  content: '... Read more';
+}
+
+.read-more-state :checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  color:blue
+  font-decoration:underline;
+
 
 }
 
+.purchase{
+  font-weight:bold;
+}
+.desc{
+    padding-left: 20px;
+    position: absolute;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align:left;
+}
 
+.desc .words{
+    bottom: 0px;
+    /* position: absolute; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+
+.label-content{
+    width: 100%;
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.logo {
+    width: 100%;
+    padding: 0px;
+    background-color: white;
+}
+.logo{
+  width: 100%;
+}
+
+
+span.name {
+    font-weight: bold;
+}
+
+.desc{
+      padding-left: 20px;
+      /* bottom: 0px; */
+      position: absolute;
+      padding-right: 20px;
+}
+
+
+.gallery .item{
+  padding: 33px;
+  background-color: white;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  transform: translate(0%, -50%);
+  text-align: center;
+  box-shadow: 10px 10px rgba(0,0,0,.05);
+}
+.label{
+    position: absolute;
+    left: 100%;
+    background-color: transparent;
+    /* padding: 20px; */
+    top: 0px;
+    margin-left: 20px;
+    display:block;
+    width: 110px;
+    font-size: 60%;
+    display: block;
+    height: 100%;
+    width: 150px;
+    }
+
+.nav {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+}
+
+.gallery {
+    position: absolute;
+    height: 50vh;
+    display: block;
+    top: 50vh;
+    text-align: center;
+    width: 100%;
+}
+
+.image{
+    background-size: contain;
+    background-image: url(namimono_1.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    background-position: center;
+}
 
 /* Add some content at the bottom of the video/page */
 .content {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
-
 }
 
 /* Style the button used to pause/play the video */
