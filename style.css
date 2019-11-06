@@ -5,6 +5,8 @@
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  opacity:.3;
+
 }
 
 /* Add some content at the bottom of the video/page */
@@ -15,6 +17,7 @@
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
+
 }
 
 /* Style the button used to pause/play the video */
