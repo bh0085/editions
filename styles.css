@@ -176,6 +176,14 @@ span.name {
   font-weight: bold;
 }
 
+.section-hero{
+
+}
+.section-hero video{
+  position: relative;
+  width:100%;
+}
+
 
 .footer{
   /* background-image: url(assets/sideways_can.jpg);
