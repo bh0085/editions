@@ -146,9 +146,8 @@ padding: 8px; */
 
 section{
 margin-top:20px;
-margin-bottom:100px;
-border-bottom:1px solid lightgray;
-padding-bottom:20px;
+margin-bottom:20px;
+padding-bottom:10px;
 }
 
 section.last{
@@ -193,6 +192,7 @@ span.name {
   text-align: center;
   align-items: center;
   justify-content: center;
+  padding-bottom:50px;
 }
 .section-footer-hero img{
 
