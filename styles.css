@@ -184,7 +184,21 @@ span.name {
   width:100%;
 }
 
+.section-footer-hero{
+  width:100%;
+  display:flex;
+  text-align:center;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.section-footer-hero img{
 
+  height:150px;
+  margin:10px;
+}
 .footer{
   /* background-image: url(assets/sideways_can.jpg);
   height: 400px;
