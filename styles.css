@@ -11,6 +11,21 @@
   bottom:20px;
 }
 
+
+.artist{
+  margin:10px;
+}
+
+
+.artist img{
+  width:100%;
+}
+
+.artist-list{
+  display:flex;
+  flex-direction: row;
+}
+
 .image-link:hover img{
   box-shadow: 10px 10px rgba(0,0,0,1);
 }
